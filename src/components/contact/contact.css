@@ -39,6 +39,10 @@
 	border-radius: 1.5rem;
 }
 
+.contact__option h5 {
+	font-size: 0.7rem;
+}
+
 /* Form Design */
 
 form {

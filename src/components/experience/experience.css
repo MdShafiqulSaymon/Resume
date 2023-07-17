@@ -1,64 +1,210 @@
-.experience__container {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
 }
 
-.experience__container > div {
-	background: var(--color-bg-variant);
-	padding: 2.4rem 5rem;
-	border-radius: 2rem;
-	border: 1px solid transparent;
-	transition: var(--transition);
+:root {
+	--bg-color: #081b29;
+	--second-bg-color: #112e42;
+	--text-color: #ededed;
+	--main-color: #00abf0;
 }
 
-.experience__container > div:hover {
-	background: transparent;
-	border-color: var(--color-primary-variant);
-	cursor: default;
+span {
+	color: var(--main-color);
 }
 
-.experience__container > div h3 {
-	text-align: center;
-	margin-bottom: 2rem;
-	color: var(--color-primary);
-}
-
-.experience__content {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
-}
-
-.experience_details {
+.education {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: auto;
+	padding-bottom: 0rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
 }
 
-.experience__details-icon {
-	margin-top: 6px;
-	color: var(--color-primary);
+.education .education-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5rem;
 }
 
-@media screen and (max-width: 1024px) {
-	.experience__container {
-		grid-template-columns: 1fr;
-	}
-	.experience__container > div {
-		width: 80%;
-		margin: 0 auto;
-		padding: 2rem;
-	}
-	.experience__content {
-		padding: 1rem;
+.education-row .education-column {
+	flex: 1 1 40rem;
+}
+
+.education-column .title {
+	position: relative;
+	display: inline-block;
+	font-size: 2rem;
+	margin: 0 0 1.5rem 2rem;
+	font-weight: bold;
+}
+
+.education-column .education-box {
+	position: relative;
+	border-left: 0.2rem solid var(--main-color);
+}
+
+.education-box .education-content {
+	position: relative;
+	padding-left: 2rem;
+}
+
+.education-box .education-content::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -1.1rem;
+	width: 2rem;
+	height: 2rem;
+	background: var(--main-color);
+	border-radius: 50%;
+}
+
+.education-content .content {
+	position: relative;
+	padding: 1.5rem;
+	border: 0.15rem solid var(--main-color);
+	border-radius: 0.6rem;
+	margin-bottom: 2rem;
+}
+
+.education-content .content::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	background: var(--second-bg-color);
+	z-index: -1;
+	transition: 0.5s;
+}
+
+.education-content .content:hover::before {
+	width: 100%;
+}
+
+.education-content .content .year {
+	font-size: 1.5rem;
+	color: var(--main-color);
+	padding-bottom: 0.5rem;
+}
+
+.education-content .content span {
+	font-weight: bold;
+	color: white;
+}
+
+.education-content .content .year {
+	padding-right: 0.5rem;
+}
+
+.education-content .year .edu-icon {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.education-content .content h3 {
+	font-size: 1.5rem;
+}
+
+.education-content .content p {
+	font-size: 1rem;
+	padding-top: 1rem;
+}
+
+.education-content .content .know {
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.education-content .content .know a {
+	text-align: center;
+	border: 1px solid blue;
+	background: #00abf0;
+	color: black;
+	padding: 0.5rem;
+	margin: auto;
+	border-radius: 0.7rem;
+}
+
+/* ANIMATION RELOAD AND SCROLL */
+
+/* BREAKPOINTS */
+
+@media (max-width: 1200px) {
+	.education .education-row {
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
 
-@media screen and (max-width: 600px) {
-	.experience__container {
-		gap: 1rem;
+@media (max-width: 768px) {
+	.education {
+		padding-bottom: 5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
-	.experience__container > div {
-		width: 80%;
-		padding: 2rem 0rem;
+}
+
+@media (max-width: 360px) {
+	.education {
+		padding-bottom: 5rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/* KEYFRAMES ANIMATION */
+
+@keyframes homeBGText {
+	0%,
+	10%,
+	100% {
+		background-position: -33rem 0;
+	}
+	65%,
+	85% {
+		background-position: 0 0;
+	}
+}
+
+@keyframes homeCursorText {
+	0%,
+	10%,
+	100% {
+		width: 0;
+	}
+	65%,
+	78%,
+	85% {
+		width: 100%;
+		opacity: 1;
+	}
+	75%,
+	81% {
+		opacity: 0;
+	}
+}
+
+@keyframes aboutSpinner {
+	100% {
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@keyframes showRight {
+	100% {
+		width: 0;
 	}
 }

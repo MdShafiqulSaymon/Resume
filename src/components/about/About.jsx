@@ -34,15 +34,14 @@ const About = () => {
 						</article>
 					</div>
 					<p>
-						As a web developer, I am passionate about creating visually
-						appealing and functional websites that meet the needs of my clients.
-						With experience in both front-end and back-end development, I have
-						the skills to turn ideas into fully functional websites. <br />
-						My journey in web development started with the desire to bring my
-						creative vision to life. Over time, I have honed my skills in HTML,
-						CSS, JavaScript, and other web development technologies. This has
-						allowed me to develop websites that are both beautiful and
-						user-friendly.
+						"Hello! I'm MD.SHAFIQUL HASAN SAYMON, a passionate Competitive
+						Programmer and MERN Stack Developer. With a relentless drive to
+						solve intricate coding challenges, I find joy in crafting efficient
+						algorithms and optimizing solutions. Beyond the realm of competitive
+						programming, I possess a deep love for web development. My
+						proficiency in the MERN (MongoDB, Express.js, React.js, Node.js)
+						stack allows me to bring captivating ideas to life and develop fully
+						functional web applications.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk
