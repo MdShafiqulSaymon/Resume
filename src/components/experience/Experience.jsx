@@ -1,6 +1,5 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
 import { AiFillCalendar } from "react-icons/ai";
 const Experience = () => {
 	return (
@@ -79,7 +78,11 @@ const Experience = () => {
 									management.
 								</p>
 								<div className="know">
-									<a href="https://github.com/MdShafiqulSaymon" target="_blank">
+									<a
+										href="https://github.com/MdShafiqulSaymon"
+										target="_blank"
+										rel="noreferrer"
+									>
 										Know More
 									</a>
 								</div>
