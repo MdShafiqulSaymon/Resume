@@ -108,7 +108,7 @@ const Experience = () => {
 									<a
 										href="https://www.stopstalk.com/user/profile/MdShafiqul_saymon"
 										target="_blank"
-										ref="noreferrer"
+										rel="noopener"
 									>
 										Know More
 									</a>

@@ -5,7 +5,7 @@ import ME from "../../assets/my.png";
 import HeaderSocials from "./HeaderSocials";
 const Header = () => {
 	return (
-		<header>
+		<section id="home" className="header-section">
 			<div className="container header_container">
 				<h5>Hello I'm</h5>
 				<h2>MR.SAYMON</h2>
@@ -19,7 +19,7 @@ const Header = () => {
 					Scroll DOwn
 				</a>
 			</div>
-		</header>
+		</section>
 	);
 };
 
