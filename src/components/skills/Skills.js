@@ -132,7 +132,14 @@ const Skills = () => {
 										<span></span>
 									</div>
 								</div>
-
+								<div className="progress">
+									<h3>
+										Data Base Architecture Design<span>80%</span>
+									</h3>
+									<div className="bar">
+										<span></span>
+									</div>
+								</div>
 								<div className="progress">
 									<h3>
 										Web Design &amp; Development <span>85%</span>

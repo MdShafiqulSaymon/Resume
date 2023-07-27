@@ -3,6 +3,7 @@ import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
 const Footer = () => {
 	return (
 		<footer>
@@ -41,6 +42,9 @@ const Footer = () => {
 				</a>
 				<a href="https://twitter.com/Shafiqul_Saymon" target="blank">
 					<IoLogoTwitter />
+				</a>
+				<a href="https://github.com/MdShafiqulSaymon" target="blank">
+					<IoLogoGithub />
 				</a>
 			</div>
 			<div className="footer__copyright">
