@@ -6,21 +6,21 @@ const HeaderSocials = () => {
 	return (
 		<div className="header_socials">
 			<a
-				href="https://www.linkedin.com/in/md-shafiqul-saymon-22a7201a1/"
+				href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
 				target="_blank"
 				rel="noreferrer"
 			>
-				<BsLinkedin />
+				<BsLinkedin className="icon" />
 			</a>
 			<a
 				href="https://github.com/MdShafiqulSaymon"
 				target="blank"
 				rel="noreferrer"
 			>
-				<FaGithub />
+				<FaGithub className="icon" />
 			</a>
 			<a href="https://dribble.com" target="_blank" rel="noreferrer">
-				<FiDribbble />
+				<FiDribbble className="icon" />
 			</a>
 		</div>
 	);
