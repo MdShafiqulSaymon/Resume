@@ -68,6 +68,27 @@ const Experience = () => {
 							<div className="content">
 								<div className="year">
 									<AiFillCalendar className="edu-icon" />
+									2023-Present
+								</div>
+								<h3>Backend Engineer - at Diligite LTD</h3>
+								<p>
+									At Diligite LTD I',m responsible for develope software Backend,System Architucture Design,Database Design,Integrate Microservices like Nginx,Docker
+								</p>
+								<div className="know">
+									<a
+										href="https://github.com/MdShafiqulSaymon"
+										target="_blank"
+										rel="noreferrer"
+									>
+										Know More
+									</a>
+								</div>
+							</div>
+						</div>
+						<div className="education-content">
+							<div className="content">
+								<div className="year">
+									<AiFillCalendar className="edu-icon" />
 									2023-(3 month Internship)
 								</div>
 								<h3>Front-End Developer - The Tork</h3>

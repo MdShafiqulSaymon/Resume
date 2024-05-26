@@ -34,14 +34,7 @@ const About = () => {
 						</article>
 					</div>
 					<p>
-						"Hello! I'm MD.SHAFIQUL HASAN SAYMON, a passionate Competitive
-						Programmer and MERN Stack Developer. With a relentless drive to
-						solve intricate coding challenges, I find joy in crafting efficient
-						algorithms and optimizing solutions. Beyond the realm of competitive
-						programming, I possess a deep love for web development. My
-						proficiency in the MERN (MongoDB, Express.js, React.js, Node.js)
-						stack allows me to bring captivating ideas to life and develop fully
-						functional web applications.
+						"I'm Md. Shafiqul (Mr. Saymon) Hasan, a passionate Microservice and DevOps enthusiast with a strong background in Kubernetes and Backend Engineering. I specialize in Node.js and have a robust experience in Full Stack Engineering. I thrive in solving complex problems through competitive programming and am dedicated to leveraging my skills to build scalable and efficient systems. Welcome to my portfolio!.
 					</p>
 					<a href="#contact" className="btn btn-primary">
 						Let's Talk

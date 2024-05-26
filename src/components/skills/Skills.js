@@ -134,6 +134,30 @@ const Skills = () => {
 								</div>
 								<div className="progress">
 									<h3>
+									Containerization ( Docker )<span>80%</span>
+									</h3>
+									<div className="bar">
+										<span></span>
+									</div>
+								</div>
+								<div className="progress">
+									<h3>
+									Orchestration ( Kubernetes )<span>70%</span>
+									</h3>
+									<div className="bar">
+										<span></span>
+									</div>
+								</div>
+								<div className="progress">
+									<h3>
+									AWS Service ( AKS,EC2 )<span>60%</span>
+									</h3>
+									<div className="bar">
+										<span></span>
+									</div>
+								</div>
+								<div className="progress">
+									<h3>
 										Data Base Architecture Design<span>80%</span>
 									</h3>
 									<div className="bar">
@@ -151,15 +175,7 @@ const Skills = () => {
 
 								<div className="progress">
 									<h3>
-										Microsoft Office <span>80%</span>
-									</h3>
-									<div className="bar">
-										<span></span>
-									</div>
-								</div>
-								<div className="progress">
-									<h3>
-										Problem Solving in Different Online Judge <span>50%</span>
+										Problem Solving in Different Online Judge <span>70%</span>
 									</h3>
 									<div className="bar">
 										<span></span>
